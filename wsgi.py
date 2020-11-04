@@ -9,5 +9,9 @@ def hello():
 def mi():
     return "soy el metodo mi"
 
+@application.route("/mi2")
+def mi():
+    return "soy otro metodo mi, anda"
+
 if __name__ == "__main__":
     application.run()
