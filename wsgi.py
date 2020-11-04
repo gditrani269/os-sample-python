@@ -10,7 +10,7 @@ def mi():
     return "soy el metodo mi"
 
 @application.route("/mi2")
-def mi():
+def mi2():
     return "soy otro metodo mi, anda"
 
 if __name__ == "__main__":
